@@ -1,16 +1,6 @@
 #!/usr/bin/python3
-
-"""
-The __init__ method for models package
-"""
+"""__init__ magic method for models directory"""
 from models.engine.file_storage import FileStorage
-from models.base_model import BaseModel
-from models.user import User
-from models.review import Review
-from models.place import Place
-from models.city import City
-from models.amenity import Amenity
-from models.state import State
 
 
 storage = FileStorage()
